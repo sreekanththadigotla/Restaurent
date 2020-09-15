@@ -1,0 +1,305 @@
+.Toolbar{
+    text-align: center;
+    display: block;
+    background-color: rgb(35, 35, 37);
+    display: block;
+    height: auto;
+    width: 100vw;
+    color: white;
+    
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+     
+}
+@media screen and (max-width:750px)
+{
+    .Toolbar{
+      flex-direction: column;
+    }
+}
+
+
+
+.Toolbar::-webkit-scrollbar{
+    width: 0%;
+    color: transparent;
+}
+
+.Name {
+    /* background-color: red; */
+    width: 40%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: .1rem;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+@media screen and (max-width:1000px)
+{
+
+    .Name{
+        width: 38%;
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:800px)
+{
+
+    .Name{
+        width: 38%;
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+
+    .Name{
+        font-size: 2.2rem;
+        width: 80%;
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:750px)
+{
+
+    .Name{
+        font-size: 2.5rem;
+        width: 80%;
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:300px)
+{
+
+    .Name{
+        font-size: 2.2rem;
+        width: 80%;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:250px)
+{
+
+    .Name{
+       display: none;
+    }
+}
+
+
+.S,.B{
+     
+    color: red;
+    display:inline-block;
+    font-size: 600;
+    
+}
+ 
+.Portion{
+    /* background-color: blue; */
+    width: 60%;
+
+}
+
+@media screen and (max-width:1000px)
+{
+    .Portion{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:800px)
+{
+    .Portion{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:750px)
+{
+    .Portion{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px)
+{
+    .Portion{
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    .Portion{
+        width: 100%;
+        font-size: 1rem;
+        color: blue;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    .Portion{
+        width: 100%;
+        font-size: 1rem;
+        color: blue;
+    }
+}
+
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: inherit;
+    font-weight: 510;
+    text-transform: uppercase;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+@media screen and (max-width:250px)
+{
+    ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+        margin: 0;
+    }
+}
+
+li,a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    flex-shrink: 1;
+    /* width: 10%; */
+    /* background-color: brown; */
+    /* display: inline-block; */
+    height: 100%;
+    /* padding: .7rem 1rem; */
+    letter-spacing: 1.5px;
+     
+    padding-left: 0;
+   
+}
+
+@media screen and (max-width:450px)
+{
+    li,a{
+        font-size: 1rem;
+        /* color: blue; */
+    }
+}
+
+@media screen and (max-width:400px)
+{
+    li,a{
+        font-size: .8rem;
+        letter-spacing: 1px;
+        /* color: blue; */
+    }
+}
+
+@media screen and (max-width:350px)
+{
+    li,a{
+        
+        font-size: .8rem;
+        letter-spacing: .5px;
+        /* color: blue; */
+    }
+}
+
+@media screen and (max-width:350px)
+{
+    li,a{
+        
+        font-size: .8rem;
+        letter-spacing: .2px;
+        /* color: blue; */
+    }
+}
+
+@media screen and (max-width:300px)
+{
+    li,a{
+        
+        font-size: .75rem;
+        letter-spacing: .2px;
+        font-weight: 200;
+        /* color: blue; */
+    }
+}
+
+@media screen and (max-width:270px)
+{
+    li,a{
+        
+        font-size: .65rem;
+        letter-spacing: .2px;
+        font-weight: 200;
+        /* color: blue; */
+    }
+}
+
+@media screen and (max-width:250px)
+{
+    li,a{
+        
+        padding:.2rem;
+        font-size: .6rem;
+        letter-spacing: 1.1px;
+        
+    }
+}
+
+ 
+
+.FirstLink{
+    background-color: green;
+    
+}
+
+
+.my{
+    color: rgba(2, 255, 2, 0.911);
+    padding-left: 0;
+    margin-left: 0;
+    /* background-color: rgb(189, 50, 0); */
+    /* border: 2px solid orangered;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    background-color: rgba(255, 0, 0, 0.548); */
+}
+
+
+@media screen and (max-width:290px)
+{
+    .mys{
+        color: rgba(2, 255, 2, 0.911);
+        transform: scale(1.5);
+    }
+}
+
+
+
+.mys {
+    color: rgba(2, 255, 2, 0.911);
+    /* background-color: rgb(189, 50, 0); */
+    /* border: 2px solid orangered; */
+    
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    /* background-color: rgba(255, 0, 0, 0.548);2 */
+}

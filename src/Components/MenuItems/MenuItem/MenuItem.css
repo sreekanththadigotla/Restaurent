@@ -1,0 +1,116 @@
+
+
+.Item
+{
+    padding: 6px 10px;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:5px;
+    /* background-color: red; */
+    height: 80px;
+   
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+
+.Heading{
+    /* font-family: 'Bad Script', cursive; */
+    letter-spacing: 1px;
+    font-size: calc(1vw + .45rem);
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid blue; */
+    height: 100%;
+    
+
+}
+
+.HeadingIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: crimson; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+.Material{
+  /* font-family: 'Amatic SC', cursive; */
+  font-weight: 200;
+   padding: 2px 1px;
+    font-size: calc(.4vw + .4rem);
+  /* width: 60%; */
+  word-wrap: break-word;   
+}
+
+.Tick{
+    height:20px;
+    width: 100%;
+    display:block;
+    /* background-color: blue; */
+    flex-shrink: 1;
+    border-radius: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    box-shadow: 0px 0px black;
+   
+}
+
+.Tick span{
+    flex: 1;
+    display:block;
+    justify-content: space-between;
+}
+.TickSelect{
+    height: 2px;
+    width: 2px;
+    outline-color: rgb(36, 12, 248);
+}
+
+.Price{
+    /* font-family: 'Amatic SC', cursive; */
+    font-size: calc(.8vw + .4rem);
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.PriceIn{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ .Add{
+    background-color: green;    
+    box-shadow: 0px 0px  2px 1px black;
+    cursor: pointer;
+     
+} 
+
+.Add:active{
+    box-shadow: 0px 0px  .5px .5px black;
+}
+
+.Sub{
+    background-color: red;
+    box-shadow: 0px 0px  2px 1px black;
+    cursor: pointer;
+}
+
+.Sub:active{
+    box-shadow: 0px 0px  .5px .5px black;
+
+}
+
+

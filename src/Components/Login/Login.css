@@ -1,0 +1,221 @@
+.Login{
+    height: 100vh;
+    width: 100vw;
+  background-image: linear-gradient(to right, rgba(192, 3, 3, 0.747) 40%,rgba(211, 12, 12, 0.596)); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* box-shadow: 2px 2px 5px 5px black; */
+    
+}
+
+
+
+.LoginMiddle{
+    width: 35%;
+    height: 50%;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgba(14, 194, 8, 0.452);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+@media screen and (max-width:1000px){
+    .LoginMiddle{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:570px){
+    .LoginMiddle{
+        width: 70%;
+        padding: 4rem;
+
+    }
+}
+
+@media screen and (max-width:450px){
+    .LoginMiddle{
+        width: 80%;
+        padding: 2rem;
+
+    }
+}
+
+@media screen and (max-width:370px){
+    .LoginMiddle{
+        width: 80%;
+        padding: 1rem;
+
+    }
+}
+
+.Ns{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: brown; */
+    
+}
+
+
+.Nextt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: .3rem;
+    background-image: linear-gradient(to right bottom ,rgb(4, 4, 214),rgb(167, 20, 20),rgb(22, 202, 22),rgb(255, 255, 0),
+    rgb(4, 4, 214),rgb(167, 20, 20),rgb(22, 202, 22),rgb(255, 255, 0));
+    z-index: -1; 
+    border-radius: 10px;
+}
+
+
+.rr{
+    color: red;
+    font-weight: 1rem;
+}
+
+.inp{
+    width: 80%;
+    display: flex;
+    /* background-color: yellow; */
+}
+
+.PP   { 
+    width: 80%;
+    outline: none;
+    border: none;
+     background-color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(199, 14, 14, 0.781);
+    padding: 1.2rem 1.6rem;
+    border: 2px solid orange;
+   
+ 
+}
+
+/* @media screen and (max-width:670px)
+{
+    .pp{
+        width: 100%;
+    }
+} */
+
+.PP:focus{
+    box-shadow: 1px 1px 8px 2px rgb(54, 241, 7);
+ 
+ }
+
+.PP::placeholder{
+    color: rgba(99, 81, 81, 0.555);
+    font-size: 1.2rem;
+     
+}
+
+ 
+
+ 
+
+.PPP{
+    width: 80%;
+    outline: none;
+    border: none;
+     background-color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+ 
+    padding: 1.2rem 1.6rem;
+    border: 2px solid orange;
+    /* box-shadow: 2px 5px yellow; */
+
+}
+.PPP:focus{
+    box-shadow: 1px 1px 8px 2px rgb(241, 7, 7);
+ 
+ }
+
+.Separate{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: red; */
+    height: 50%;
+    width: 80%;
+}
+
+.Log{
+    
+    background-color:rgb(102, 255, 0);
+    width: 80%;
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px rgb(42, 158, 7);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+.Log1{
+    
+    background-color:rgb(102, 255, 0);
+    width: 80%;
+    padding: .5rem 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px rgb(42, 158, 7);
+    cursor: pointer;
+    transition: all .2s;
+    pointer-events: none;
+}
+
+.Log:active{
+    /* background-color:rgb(7, 7, 7); */
+    transform: translateY(1px);  
+    box-shadow: .5px .5px 4px 1px rgb(42, 158, 7);
+
+}
+
+.Log2{
+    
+    background-color:rgb(255, 0, 0);
+    width: 80%;
+    padding: .4rem 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+.Log2:active{
+    /* background-color:rgb(7, 7, 7); */
+    transform: translateY(1px);  
+    box-shadow: .5px .5px 4px 1px rgb(255, 0, 0);
+
+}
+
+
+ 

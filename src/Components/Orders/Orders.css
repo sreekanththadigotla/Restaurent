@@ -1,0 +1,88 @@
+.MainCard{
+    height: 90vh;
+    width: 60vw;
+    /* background-color: green; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ord{
+  padding: .5rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+
+
+.NoOrder{
+  
+    font-weight: 700;
+    font-size: 2rem;
+    display: block;
+    color: orangered;
+ }
+
+.MainMiddleCard{
+    height: 80%;
+    width: 80%;
+    /* background-color: blue; */
+    display: block;
+    text-align: center;
+    overflow: scroll;
+
+}
+
+
+
+.SmallCard{
+    
+    width: 60%;
+    background-color: rgb(253, 8, 8);
+    border: 2px solid rgb(253, 8, 8);
+    border-radius: 15px;
+    display: flex;
+    height: 20%;
+    flex-shrink: 0;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    font-size: 600;
+    text-transform: capitalize;
+    margin:  5px auto;
+    cursor: pointer;
+    transition: all .5s;
+    box-shadow: .5px .5px 4px 1px rgb(44, 43, 43);
+    color: white;
+    font-weight: 600;
+    
+}
+
+
+.SmallCard:hover {
+    box-shadow: 1px 1px 5px 2px rgb(44, 43, 43);
+    transform: scale(1.01);
+    transform-origin: left;
+}
+
+
+.LeftSide,.RightSide{
+    width: 60%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly   ;
+    align-items: flex-start;
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+}
+
+
+.RightSide{
+    width: 40%;
+    align-items: flex-start;
+    /* background-color: yellow; */
+}

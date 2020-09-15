@@ -1,0 +1,505 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); */
+
+.MenuItems  {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    /* font-family: 'Amatic SC', cursive; */
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    position: relative;
+    flex:1 1 auto;
+    flex-wrap: wrap;
+    /* -webkit-background-clip: text;
+    color: transparent;
+    border: 1px solid black; */
+
+}
+
+@media(max-width:1000px)
+{
+    .MenuItems{
+        background-color: rgb(0, 0, 0);
+        position: static;
+        padding: 0;
+        flex: 1;
+        font-size: 1rem;
+     }
+}
+
+
+ 
+
+ .MenuItems  p:first-child
+{
+
+    border: 1px solid transparent;
+    border-left-color:  white;
+    border-right-color: white;
+ }
+
+ .MenuItems  p
+{
+    flex:1  2 auto ;
+    padding: 1rem 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-right-color:  white;
+ }
+
+
+ @media(max-width:1000px)
+{
+    .MenuItems  p{
+        background-color: rgb(0, 0, 0);
+        position: static;
+        padding:0  0px;
+        font-size: 1rem;
+        
+       
+          
+     }
+}
+
+@media(max-width:110px)
+{
+    .MenuItems  p{
+        background-color: rgb(0, 0, 0);
+        
+         flex-shrink: 0;
+    
+       
+          
+     }
+}
+
+
+
+
+ p{
+     padding: 0;
+ }
+
+
+
+
+
+/* .MenuItems::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+     border: 0px solid red;
+    width: 12%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+ */
+
+ 
+
+/* 
+.MenuItems::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    border: 1;
+    width: 12%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+} */
+
+
+.Box{
+    height: 85vh;
+    width : 37%;
+    background-color: rgb(43, 179, 25);
+    margin: 20px auto;
+    border: 1px solid black;
+    perspective: 3000px;
+    /* margin-left: -1px; */
+}
+@media screen and (max-width:1000px)
+{
+    .Box{
+        display: none;
+    }
+}
+
+ 
+.Main{
+
+    /* background-color: rgb(255, 2, 2); */
+    margin: 0 auto;
+    width: 70%;
+    padding: 0;
+}
+
+.Extra{
+    height: 90vh;
+    width: 80vw;
+    margin: 0 auto;
+    /* background-color: green; */
+    padding: 1px;
+    margin: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:1000px)
+{
+   .Extra{
+       display: none;
+   }
+}
+
+.ExtraMiddle{
+    margin: 0 auto;
+    height: 90%;
+    width: 80%;
+    padding: 1px;
+    /* background-color: white; */
+    position: relative;
+}
+
+
+
+.BOMB{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: transparent;
+    border: 1px solid orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BoxMaintain{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+
+@media (max-width:1000px)
+{  
+   .FrontFace{
+       width: 100%;
+   }
+}
+
+.FrontFace{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(5, 5, 5); */
+    /* text-align: center; */
+    vertical-align: middle;
+    /* line-height: 200px; */
+    position: absolute;
+    background-color: green;
+}
+
+.Front__Center{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 89, 131);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    backface-visibility: hidden;
+    /* transform: rotateY(180deg); */
+    /* overflow-y: scroll; */
+    border-width: 5px; 
+    /* border-style: double; */
+    color: white;
+
+}
+
+.Left{
+   position: absolute;
+   transform-style: preserve-3d;
+   height: 100%;
+   width: 100%;
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+  animation-name: ani1;
+  animation-duration: 5s;
+  transform-origin: right;
+  /* border: 1px solid transparent; */
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+    .Left{
+       display: none;
+    }
+}
+
+
+
+
+.Front__Left{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 89, 131);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    /* overflow-y: scroll; */
+    border-width: 5px; 
+    /* border-style: double; */
+    color: white;
+}
+
+
+.Front__Front{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.781);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    backface-visibility: hidden;
+    /* overflow-y: scroll; */
+    border-width: 5px; 
+    /* border-style: double; */
+}
+
+
+
+ 
+
+.Front__LeftCover{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to right,rgba(27, 26, 26, 0.664),rgba(0, 0, 0, 0.801)), url('../../Assets/Menuu.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    backface-visibility: visible;
+    line-height: 200px;
+    transform:rotateY(0deg);
+    /* color: white; */
+    color: orangered;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transform-style: preserve-3d;
+    
+}
+
+.Hov{
+    position: absolute;
+    /* background-color: yellow; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center;
+    transform:rotate(-45deg)  translateZ(1rem);
+}
+
+
+.FrontBorder{
+    margin: auto;
+    height: 95%;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    background-color:transparent;
+    border-width: 2px;
+    border-style:double;
+    overflow-y: scroll;    
+}
+
+.FrontBorder::-webkit-scrollbar{
+    width: 0px;
+
+    background-color: transparent;
+    display: none;
+}
+
+
+
+ @-webkit-keyframes ani1{
+
+    0%{
+         transform: rotateY(0deg);
+
+    }
+    100%{
+
+        transform: rotateY(180deg);
+    }
+ }
+
+
+
+ .Spinner{
+     height: 100%;
+    background-color:white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+ 
+ }
+
+ .Spinnere{
+    
+    margin: 0 auto;
+    /* background-color: rgb(10, 10, 10); */
+    
+ }
+
+.Right{
+ position: absolute;
+ transform-style: preserve-3d;
+ height: 100%;
+ width: 100%;
+ /* background-color: greenyellow; */
+ animation-name: ani2;
+ animation-duration: 5s;
+ transform-origin: left;
+  animation-fill-mode: forwards;
+ animation-delay: 2s;
+ 
+}
+
+
+ 
+  @media (max-width: 1000px) {
+
+    .Right{
+        display: none;
+    }
+}
+
+
+
+@-webkit-keyframes ani4{
+
+    0%{
+         transform: rotateY(0deg);
+    }
+    100%{
+
+        transform: rotateY(0deg);
+        margin-top: 30vh;
+    }
+ }
+
+
+
+
+ .Front__Right{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 89, 131);
+    display: flex;
+    color: white;
+    flex-direction: column;
+
+    backface-visibility: hidden;
+    
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.Front__RightCover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.781)),   url(../../Assets/mum.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    backface-visibility: visible;
+    line-height: 200px;
+    transform:rotateY(0deg);
+    transform-style: preserve-3d;
+    font-size: 2rem;
+
+}
+
+.Hove{
+    position: absolute;
+    /* background-color: yellow; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    transform-origin: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform:rotate(0deg)  translateZ(0rem);
+    color: orangered;
+     
+}
+
+.Ing{
+    display: block;
+}
+
+
+ @-webkit-keyframes ani2{
+
+    0%{
+         transform: rotateY(0deg);
+
+    }
+    100%{
+
+        transform: rotateY(-180deg);
+    }
+ }
+

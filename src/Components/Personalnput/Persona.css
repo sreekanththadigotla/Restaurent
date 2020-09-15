@@ -1,0 +1,85 @@
+.Persona{
+    display: block;
+    margin: 10px auto;
+    width: 65%;
+    height: 30%;
+    /* background-color:rgba(255, 0, 0, 0.651); */
+    border: 2px solid orange;
+    border-radius: 10px;
+    
+  
+    
+}
+.Personal{
+    display: block;
+    margin: 15px auto;
+    width: 55%;
+    padding: 1.2rem 1.6rem;
+    height: 10vh;
+    resize: none;
+    word-wrap:  break-all;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+textarea{
+    font-size: 1.2rem;
+}
+ 
+
+input,
+.Personal{
+    outline: none;
+    border: none;
+     background-color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(199, 14, 14, 0.781);
+    padding: 1.2rem 1.6rem;
+    border: 2px solid orange;
+}
+ input::placeholder{
+     color: rgba(99, 81, 81, 0.555);
+     font-size: 1.2rem;
+      
+ }
+
+ 
+.Personal:focus{
+    /* box-shadow: 1px 1px 8px 2px rgb(54, 241, 7); */
+
+}
+
+input:placeholder-shown ~ .Label{
+    color: yellow;
+   }
+   
+
+.Label{
+    display: block;
+    background-color: wheat;
+   
+}
+
+.No{
+    visibility: visible;
+    margin: 15px auto;  
+    width: 55%;
+    transform: translateY(3.4rem);
+    pointer-events: none;
+    transition: all .2s;
+    font-weight: 600;
+    color: orangered;
+    opacity: 0;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.Yes{
+    transform: translateY(0rem);
+    opacity: 1;
+    visibility: visible;
+    margin: 15px auto;  
+    width: 55%;
+    pointer-events: none;
+}

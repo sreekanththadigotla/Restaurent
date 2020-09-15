@@ -1,0 +1,49 @@
+.Personal {
+    display: flex;
+    align-content: space-between;
+     
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 85vh;
+    width: 60%;
+    margin: 10px auto;
+    box-shadow: 1px 1px 5px 3px rgb(0, 0, 0);
+    background-color: transparent;
+    background-size: 100%;
+    background-position: center;
+    backdrop-filter:brightness(50%) blur(5px);
+
+}
+
+
+.PersonalD{
+  height: 90vh;
+  width: 100vw;
+  display: inline-block;
+  /* background-color: brown; */
+  background-image: linear-gradient(rgba(255, 84, 5, 0.986), rgba(255, 230, 9, 0.986)),url('../../Assets/r1.jpg');
+  background-size: cover;
+  background-blend-mode: hue;
+  /* filter: blur(1px); */
+  /* margin-top: -1rem; */
+  
+}
+.Personal::-webkit-scrollbar {
+    width: none;
+    color: transparent;
+}
+
+.d{
+     font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+     text-transform: uppercase;
+     margin: 0 auto;
+     background-image:linear-gradient(to right,rgb(255, 0, 0),rgb(94, 255, 0));
+    
+     -webkit-background-clip: text;
+     background-clip: text;
+     color: transparent;
+  
+}
